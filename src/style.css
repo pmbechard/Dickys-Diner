@@ -64,3 +64,33 @@ li:hover {
 li:active {
     background-color: rgba(197, 123, 32, 0.9);
 }
+
+
+
+.content {
+    height: 70vh;
+    width: 100vw;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+
+    background-image: linear-gradient(rgba(45, 45, 45, 0.5), rgba(45, 45, 45, 0.9));
+    color: rgba(143, 160, 183, 0.8);
+    width: 100vw;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+small {
+    transition: all 0.2s ease-in-out;
+}
+
+small:hover {
+    cursor: pointer;
+    color: rgba(143, 160, 183, 1);
+    font-size: 14px;
+}

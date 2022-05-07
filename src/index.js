@@ -14,6 +14,8 @@ const initialDisplay = (renderFunc=renderHomePage) => {
 
 initialDisplay();
 
+
+// STATIC ELEMENTS
 const home = document.getElementById('home');
 const homeIcon = new Image();
 homeIcon.src = homeImage;
@@ -34,3 +36,6 @@ contactIcon.src = contactImage;
 contactIcon.style.height = '30px';
 contact.appendChild(contactIcon);
 contact.onclick = () => initialDisplay(renderContactPage);
+
+const footerLink = document.querySelector('small');
+footerLink.onclick = () => window.open('https://github.com/pmbechard/Dickys-Diner', '_blank');

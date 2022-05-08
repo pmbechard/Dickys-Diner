@@ -1,3 +1,8 @@
+:root {
+    --showInfo: hidden;
+    --itemDescription: 'description';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -109,6 +114,22 @@ main {
     text-shadow: 1px 1px 1px #222;
     border: 4px solid #222;
     border-radius: 8px;
+}
+
+.menu-item-container {
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item-container::before {
+    content: var(--itemDescription);
+    position: absolute;
+    font-size: 24px;
+    visibility: var(--showInfo);
+}
+
+.menu-item-container:hover {
+    opacity: 0.9;
+    transform: scale(1.5);
 }
 
 

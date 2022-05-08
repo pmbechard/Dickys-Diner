@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderContactPage\": () => (/* binding */ renderContactPage)\n/* harmony export */ });\nfunction renderContactPage() {\n    const contactButton = document.getElementById('contact');\n    contactButton.classList.add('disabled-button');\n\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    const title = document.createElement('h2');\n    title.textContent = 'Contact';\n    content.appendChild(title);\n}\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderContactPage\": () => (/* binding */ renderContactPage)\n/* harmony export */ });\n/* harmony import */ var _img_twitter_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/twitter.svg */ \"./src/img/twitter.svg\");\n/* harmony import */ var _img_twitter_svg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_img_twitter_svg__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_facebook_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/facebook.svg */ \"./src/img/facebook.svg\");\n/* harmony import */ var _img_facebook_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_facebook_svg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_instagram_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/instagram.svg */ \"./src/img/instagram.svg\");\n/* harmony import */ var _img_instagram_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_instagram_svg__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction renderContactPage() {\n    const contactButton = document.getElementById('contact');\n    contactButton.classList.add('disabled-button');\n\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    const title = document.createElement('h2');\n    title.textContent = 'Contact';\n\n    const map = document.createElement('div');\n    map.innerHTML = '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62751.05445586421!2d103.27405865952318!3d10.583793589852403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107eede3706b249%3A0xf4bc7be5df0f6e74!2sKoh%20Rong%20Sanloem!5e0!3m2!1sen!2sca!4v1651996516696!5m2!1sen!2sca\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>';\n    map.style.margin =  '20px';\n    map.style.border =  '2px solid #222';\n\n    const twitterLink = new Image();\n    twitterLink.src = (_img_twitter_svg__WEBPACK_IMPORTED_MODULE_0___default());\n    const facebookLink = new Image();\n    facebookLink.src = (_img_facebook_svg__WEBPACK_IMPORTED_MODULE_1___default());\n    const instagramLink = new Image();\n    instagramLink.src = (_img_instagram_svg__WEBPACK_IMPORTED_MODULE_2___default());\n\n    const linkArea = document.createElement('div');\n    linkArea.style.display = 'flex';\n    linkArea.style.justifyContent = 'center';\n    linkArea.style.alignItems = 'center';\n    linkArea.style.gap = '20px';\n    linkArea.style.cursor = 'pointer';\n    linkArea.appendChild(twitterLink);\n    linkArea.appendChild(facebookLink);\n    linkArea.appendChild(instagramLink);\n\n    content.appendChild(title);\n    content.appendChild(map);\n    content.appendChild(linkArea);\n}\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/contact.js?");
 
 /***/ }),
 
@@ -51,6 +51,26 @@ eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\n
 
 /***/ }),
 
+/***/ "./src/img/facebook.svg":
+/*!******************************!*\
+  !*** ./src/img/facebook.svg ***!
+  \******************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"#aaa\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" class=\\\"feather feather-facebook\\\"><path d=\\\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\\\"></path></svg>\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/facebook.svg?");
+
+/***/ }),
+
+/***/ "./src/img/instagram.svg":
+/*!*******************************!*\
+  !*** ./src/img/instagram.svg ***!
+  \*******************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"#aaa\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" class=\\\"feather feather-instagram\\\"><rect x=\\\"2\\\" y=\\\"2\\\" width=\\\"20\\\" height=\\\"20\\\" rx=\\\"5\\\" ry=\\\"5\\\"></rect><path d=\\\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\\\"></path><line x1=\\\"17.5\\\" y1=\\\"6.5\\\" x2=\\\"17.51\\\" y2=\\\"6.5\\\"></line></svg>\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/instagram.svg?");
+
+/***/ }),
+
 /***/ "./src/img/pin_drop_FILL1_wght400_GRAD0_opsz48.png":
 /*!*********************************************************!*\
   !*** ./src/img/pin_drop_FILL1_wght400_GRAD0_opsz48.png ***!
@@ -68,6 +88,16 @@ eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\n
 /***/ (() => {
 
 eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/restaurant_menu_FILL1_wght400_GRAD0_opsz48.png?");
+
+/***/ }),
+
+/***/ "./src/img/twitter.svg":
+/*!*****************************!*\
+  !*** ./src/img/twitter.svg ***!
+  \*****************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"#aaa\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" class=\\\"feather feather-twitter\\\"><path d=\\\"M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z\\\"></path></svg>\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/twitter.svg?");
 
 /***/ }),
 

@@ -87,9 +87,18 @@ li:active {
 
 
 
-.content {
+main {
     height: 70vh;
     width: 100vw;
+
+    margin: 20px 200px;
+    height: calc(65vh - 40px);
+    width: calc(100vw - 400px);
+    background-image: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.9));
+    color: rgba(143, 160, 183, 1);
+    text-shadow: 1px 1px 1px #222;
+    border: 4px solid #222;
+    border-radius: 8px;
 }
 
 
@@ -98,7 +107,7 @@ footer {
     position: absolute;
     bottom: 0px;
 
-    background-image: linear-gradient(rgba(45, 45, 45, 0.5), rgba(45, 45, 45, 0.9));
+    background-image: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.9));
     color: rgba(143, 160, 183, 0.8);
     width: 100vw;
     padding: 5px 20px;

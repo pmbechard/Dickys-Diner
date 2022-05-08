@@ -27,7 +27,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderHomePage\": () => (/* binding */ renderHomePage)\n/* harmony export */ });\nfunction renderHomePage() {\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    const title = document.createElement('h2');\n    title.textContent = 'Home';\n    content.appendChild(title);\n}\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderHomePage\": () => (/* binding */ renderHomePage)\n/* harmony export */ });\n/* harmony import */ var _img_dicky_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/dicky.png */ \"./src/img/dicky.png\");\n/* harmony import */ var _img_dicky_png__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_img_dicky_png__WEBPACK_IMPORTED_MODULE_0__);\n\n\n\nfunction renderHomePage() {\n    const homeButton = document.getElementById('home');\n    homeButton.border = '2px solid rgba(197, 123, 32, 0.9)';\n\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    content.style.display = 'flex';\n    content.style.flexDirection = 'column';\n    content.style.justifyContent = 'center';\n    content.style.alignItems = 'center';\n    content.style.height = '100%';\n\n    const title = document.createElement('h2');\n    title.innerHTML = 'Est. 2021 by world-renowned chef, Dicky Béxian\\'rde';\n    title.style.textAlign = 'center';\n\n    const description = document.createElement('p');\n    description.innerHTML = 'Here, we serve the best home-cooked meals for puppies big and small. <br>It\\'s ri<i>dick</i>ulously good!';\n    description.style.textAlign = 'center';\n    description.style.padding = '20px';\n    description.style.lineHeight = '30px';\n\n    const dicky = new Image();\n    dicky.src = (_img_dicky_png__WEBPACK_IMPORTED_MODULE_0___default());\n    dicky.style.height = '200px';\n    dicky.style.borderRadius = '10%';\n    dicky.style.boxShadow = '1px 1px 1px #222';\n\n    const tagline = document.createElement('p');\n    tagline.textContent = '\"No one leaves with a downward tail at Dicky\\'s Diner!\"';\n    tagline.style.padding = '20px';\n    tagline.style.fontFamily = 'TitleFont';\n\n\n    content.appendChild(title);\n    content.appendChild(description);\n    content.appendChild(dicky);\n    content.appendChild(tagline);\n}\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/home.js?");
 
 /***/ }),
 
@@ -38,6 +38,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (() => {
 
 eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/cottage_FILL1_wght400_GRAD0_opsz48.png?");
+
+/***/ }),
+
+/***/ "./src/img/dicky.png":
+/*!***************************!*\
+  !*** ./src/img/dicky.png ***!
+  \***************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/dicky.png?");
 
 /***/ }),
 

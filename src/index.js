@@ -9,6 +9,8 @@ import "./style.css";
 
 
 const initialDisplay = (renderFunc=renderHomePage) => {
+    const buttons = document.querySelectorAll('header li');
+    buttons.forEach( (button) => button.classList.remove('disabled-button'));
     renderFunc();
 };
 

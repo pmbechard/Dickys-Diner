@@ -85,6 +85,16 @@ li:active {
     background-color: rgba(197, 123, 32, 0.9);
 }
 
+.disabled-button {
+    border: 1px solid rgba(197, 123, 32, 0.9);
+    background-color:  rgba(143, 160, 183, 1);
+}
+
+.disabled-button:hover {
+    border: 1px solid rgba(197, 123, 32, 0.9);
+    background-color:  rgba(143, 160, 183, 1);
+}
+
 
 
 main {
@@ -95,7 +105,7 @@ main {
     height: calc(65vh - 40px);
     width: calc(100vw - 400px);
     background-image: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.9));
-    color: rgba(143, 160, 183, 1);
+    color: #aaa;
     text-shadow: 1px 1px 1px #222;
     border: 4px solid #222;
     border-radius: 8px;
@@ -108,7 +118,7 @@ footer {
     bottom: 0px;
 
     background-image: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.9));
-    color: rgba(143, 160, 183, 0.8);
+    color: #aaa;
     width: 100vw;
     padding: 5px 20px;
     text-align: center;
@@ -120,6 +130,5 @@ small {
 
 small:hover {
     cursor: pointer;
-    color: rgba(143, 160, 183, 1);
     font-size: 14px;
 }

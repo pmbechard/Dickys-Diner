@@ -3,7 +3,7 @@ import chefDicky from './img/dicky.png';
 
 function renderHomePage() {
     const homeButton = document.getElementById('home');
-    homeButton.border = '2px solid rgba(197, 123, 32, 0.9)';
+    homeButton.classList.add('disabled-button');
 
     const content = document.getElementById('content');
     content.innerHTML = '';

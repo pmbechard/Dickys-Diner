@@ -125,12 +125,40 @@ main {
     position: absolute;
     font-size: 24px;
     visibility: var(--showInfo);
+    text-align: center;
+}
+
+/* UGLY, UGLY, UGLY BAND-AID */
+#item-1:hover {
+    --itemDescription: "stick du jour";
+}
+
+#item-2:hover {
+    --itemDescription: "freshly-worn sandals";
+}
+
+#item-3:hover {
+    --itemDescription: "dry chicken and rice house mix";
+}
+
+#item-4:hover {
+    --itemDescription: "organic kitty";
+}
+
+#item-5:hover {
+    --itemDescription: "locally-sourced chews";
+}
+
+#item-6:hover {
+    --itemDescription: "pupcakes";
 }
 
 .menu-item-container:hover {
     opacity: 0.9;
     transform: scale(1.5);
 }
+
+
 
 
 

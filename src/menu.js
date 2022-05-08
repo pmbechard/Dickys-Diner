@@ -50,7 +50,7 @@ function renderMenuPage() {
         item.style.border = '2px solid #222';
         item.style.boxShadow = '1px 1px 1px #222';
         container.addEventListener('mouseover', () => {
-            container.style.setProperty('--itemDescription', descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);
+            // container.style.setProperty('--itemDescription', descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);
             container.style.setProperty('--showInfo', 'visible');
             // console.log(descriptions[counter-2], descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);
             // document.querySelector(':root').style.setProperty('--itemDescription', 'stick');

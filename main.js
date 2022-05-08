@@ -71,6 +71,66 @@ eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may ne
 
 /***/ }),
 
+/***/ "./src/img/menu/jamie-street-uNNCs5kL70Q-unsplash.jpg":
+/*!************************************************************!*\
+  !*** ./src/img/menu/jamie-street-uNNCs5kL70Q-unsplash.jpg ***!
+  \************************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/jamie-street-uNNCs5kL70Q-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/menu/kikikap-IZgx6GnODc0-unsplash.jpg":
+/*!*******************************************************!*\
+  !*** ./src/img/menu/kikikap-IZgx6GnODc0-unsplash.jpg ***!
+  \*******************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/kikikap-IZgx6GnODc0-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/menu/mathew-coulton-zxqaAkkayP8-unsplash.jpg":
+/*!**************************************************************!*\
+  !*** ./src/img/menu/mathew-coulton-zxqaAkkayP8-unsplash.jpg ***!
+  \**************************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/mathew-coulton-zxqaAkkayP8-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/menu/max-baskakov-OzAeZPNsLXk-unsplash.jpg":
+/*!************************************************************!*\
+  !*** ./src/img/menu/max-baskakov-OzAeZPNsLXk-unsplash.jpg ***!
+  \************************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/max-baskakov-OzAeZPNsLXk-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/menu/r-r-medicinals-Vv50h13jis0-unsplash.jpg":
+/*!**************************************************************!*\
+  !*** ./src/img/menu/r-r-medicinals-Vv50h13jis0-unsplash.jpg ***!
+  \**************************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/r-r-medicinals-Vv50h13jis0-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/menu/susan-q-yin-1O6_I_6STAU-unsplash.jpg":
+/*!***********************************************************!*\
+  !*** ./src/img/menu/susan-q-yin-1O6_I_6STAU-unsplash.jpg ***!
+  \***********************************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://dickys-diner/./src/img/menu/susan-q-yin-1O6_I_6STAU-unsplash.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/pin_drop_FILL1_wght400_GRAD0_opsz48.png":
 /*!*********************************************************!*\
   !*** ./src/img/pin_drop_FILL1_wght400_GRAD0_opsz48.png ***!
@@ -119,7 +179,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderMenuPage\": () => (/* binding */ renderMenuPage)\n/* harmony export */ });\nfunction renderMenuPage() {\n    const menuButton = document.getElementById('menu');\n    menuButton.classList.add('disabled-button');\n\n\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    const title = document.createElement('h2');\n    title.textContent = 'Menu';\n    \n\n    content.appendChild(title);\n}\n\n\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderMenuPage\": () => (/* binding */ renderMenuPage)\n/* harmony export */ });\n/* harmony import */ var _img_menu_jamie_street_uNNCs5kL70Q_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/menu/jamie-street-uNNCs5kL70Q-unsplash.jpg */ \"./src/img/menu/jamie-street-uNNCs5kL70Q-unsplash.jpg\");\n/* harmony import */ var _img_menu_jamie_street_uNNCs5kL70Q_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_img_menu_jamie_street_uNNCs5kL70Q_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_menu_kikikap_IZgx6GnODc0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/menu/kikikap-IZgx6GnODc0-unsplash.jpg */ \"./src/img/menu/kikikap-IZgx6GnODc0-unsplash.jpg\");\n/* harmony import */ var _img_menu_kikikap_IZgx6GnODc0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_menu_kikikap_IZgx6GnODc0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_menu_mathew_coulton_zxqaAkkayP8_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/menu/mathew-coulton-zxqaAkkayP8-unsplash.jpg */ \"./src/img/menu/mathew-coulton-zxqaAkkayP8-unsplash.jpg\");\n/* harmony import */ var _img_menu_mathew_coulton_zxqaAkkayP8_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_menu_mathew_coulton_zxqaAkkayP8_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_menu_max_baskakov_OzAeZPNsLXk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/menu/max-baskakov-OzAeZPNsLXk-unsplash.jpg */ \"./src/img/menu/max-baskakov-OzAeZPNsLXk-unsplash.jpg\");\n/* harmony import */ var _img_menu_max_baskakov_OzAeZPNsLXk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_menu_max_baskakov_OzAeZPNsLXk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _img_menu_r_r_medicinals_Vv50h13jis0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/menu/r-r-medicinals-Vv50h13jis0-unsplash.jpg */ \"./src/img/menu/r-r-medicinals-Vv50h13jis0-unsplash.jpg\");\n/* harmony import */ var _img_menu_r_r_medicinals_Vv50h13jis0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_menu_r_r_medicinals_Vv50h13jis0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _img_menu_susan_q_yin_1O6_I_6STAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/menu/susan-q-yin-1O6_I_6STAU-unsplash.jpg */ \"./src/img/menu/susan-q-yin-1O6_I_6STAU-unsplash.jpg\");\n/* harmony import */ var _img_menu_susan_q_yin_1O6_I_6STAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_menu_susan_q_yin_1O6_I_6STAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\nfunction renderMenuPage() {\n    const menuButton = document.getElementById('menu');\n    menuButton.classList.add('disabled-button');\n\n\n    const content = document.getElementById('content');\n    content.innerHTML = '';\n    const title = document.createElement('h2');\n    title.textContent = 'Menu';\n\n    const menuItems = document.createElement('div');\n    menuItems.style.display = 'grid';\n    menuItems.style.gridTemplate = '1fr 1fr / 1fr 1fr 1fr';\n    menuItems.style.height = '80%';\n    menuItems.style.alignItems = 'center';\n    menuItems.style.gap = '20px';\n    const menuItem1 = new Image();\n    const menuItem2 = new Image();\n    const menuItem3 = new Image();\n    const menuItem4 = new Image();\n    const menuItem5 = new Image();\n    const menuItem6 = new Image();\n    menuItem1.src = (_img_menu_jamie_street_uNNCs5kL70Q_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0___default());\n    menuItem2.src = (_img_menu_kikikap_IZgx6GnODc0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1___default());\n    menuItem3.src = (_img_menu_mathew_coulton_zxqaAkkayP8_unsplash_jpg__WEBPACK_IMPORTED_MODULE_2___default());\n    menuItem4.src = (_img_menu_max_baskakov_OzAeZPNsLXk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_3___default());\n    menuItem5.src = (_img_menu_r_r_medicinals_Vv50h13jis0_unsplash_jpg__WEBPACK_IMPORTED_MODULE_4___default());\n    menuItem6.src = (_img_menu_susan_q_yin_1O6_I_6STAU_unsplash_jpg__WEBPACK_IMPORTED_MODULE_5___default());\n    const allItems = [menuItem1, menuItem2, menuItem3, menuItem4, menuItem5, menuItem6];\n    let counter = 1;\n    const descriptions = ['Freshly fallen stick.', '', '', '', '', ''];\n    allItems.forEach((item) => {\n        const container = document.createElement('div');\n        container.style.display = 'flex';\n        container.style.justifyContent = 'center';\n        container.style.alignItems = 'center';\n        container.classList.add('menu-item-container');\n        container.id = `item-${counter++}`;\n        item.classList.add('menu-item');\n        item.style.height = '150px';\n        item.style.width = '200px';\n        item.style.objectFit = 'cover';\n        item.style.border = '2px solid #222';\n        item.style.boxShadow = '1px 1px 1px #222';\n        container.addEventListener('mouseover', () => {\n            container.style.setProperty('--itemDescription', descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);\n            container.style.setProperty('--showInfo', 'visible');\n            // console.log(descriptions[counter-2], descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);\n            // document.querySelector(':root').style.setProperty('--itemDescription', 'stick');\n        });\n        container.addEventListener('mouseleave', () => container.style.setProperty('--showInfo', 'hidden'))\n        container.appendChild(item);\n        menuItems.appendChild(container);\n    });\n    menuItem4.style.objectPosition = 'top';\n    menuItem5.style.objectPosition = 'bottom';\n\n    content.appendChild(title);\n    content.appendChild(menuItems);\n}\n\n\n\n\n\n//# sourceURL=webpack://dickys-diner/./src/menu.js?");
 
 /***/ }),
 
@@ -129,7 +189,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> * {\\n|     margin: 0;\\n|     padding: 0;\");\n\n//# sourceURL=webpack://dickys-diner/./src/style.css?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> :root {\\n|     --showInfo: hidden;\\n|     --itemDescription: 'description';\");\n\n//# sourceURL=webpack://dickys-diner/./src/style.css?");
 
 /***/ })
 

@@ -28,9 +28,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 20px 200px;
-    height: calc(25vh - 40px);
-    width: calc(100vw - 400px);
+    margin: 2vw 5vw;
+    height: calc(25vh - 4vw);
+    width: calc(100vw - 10vw);
     background-image: linear-gradient(rgba(45, 45, 45, 0.5), rgba(45, 45, 45, 0.9));
     border: 4px solid #222;
     border-radius: 8px;
@@ -38,7 +38,8 @@ body {
 
 h1 {
     font-family: 'TitleFont';
-    font-size: 76px;
+    text-align: center;
+    font-size: max(48px, 6vw);
     color: rgb(197, 123, 32);
     text-shadow: 1px 1px 1px #222;
     animation: candlelight 1s linear infinite;
@@ -106,9 +107,9 @@ main {
     height: 70vh;
     width: 100vw;
 
-    margin: 20px 200px;
-    height: calc(65vh - 40px);
-    width: calc(100vw - 400px);
+    margin: 2vw 5vw;
+    height: calc(65vh - 4vw);
+    width: calc(100vw - 10vw);
     background-image: linear-gradient(rgba(45, 45, 45, 0.7), rgba(45, 45, 45, 0.9));
     color: #aaa;
     text-shadow: 1px 1px 1px #222;
@@ -126,6 +127,14 @@ main {
     font-size: 24px;
     visibility: var(--showInfo);
     text-align: center;
+}
+
+main h2 {
+    font-size: clamp(18px, 2.5vw, 24px);
+}
+
+main p {
+    font-size: clamp(12px, 2vw, 18px);
 }
 
 /* UGLY, UGLY, UGLY BAND-AID */
@@ -171,6 +180,7 @@ footer {
     width: 100vw;
     padding: 5px 20px;
     text-align: center;
+    font-size: clamp(12px, 1.5vw, 14px);
 }
 
 small {
@@ -179,5 +189,5 @@ small {
 
 small:hover {
     cursor: pointer;
-    font-size: 14px;
+    font-size: clamp(12.5px, 1.6vw, 14.1px);
 }

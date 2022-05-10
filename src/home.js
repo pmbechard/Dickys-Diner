@@ -21,7 +21,7 @@ function renderHomePage() {
     description.innerHTML = 'Here, we serve the best home-cooked meals for puppies big and small. <br>It\'s ri<i>dick</i>ulously good!';
     description.style.textAlign = 'center';
     description.style.padding = '20px';
-    description.style.lineHeight = '30px';
+    description.style.lineHeight = 'max(14px, 3vw)';
 
     const dicky = new Image();
     dicky.src = chefDicky;
@@ -33,6 +33,7 @@ function renderHomePage() {
     tagline.textContent = '"No one leaves with a downward tail at Dicky\'s Diner!"';
     tagline.style.padding = '20px';
     tagline.style.fontFamily = 'TitleFont';
+    tagline.style.textAlign = 'center';
 
 
     content.appendChild(title);

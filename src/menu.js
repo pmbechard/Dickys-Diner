@@ -45,15 +45,12 @@ function renderMenuPage() {
         container.id = `item-${counter++}`;
         item.classList.add('menu-item');
         item.style.height = '150px';
-        item.style.width = '200px';
+        item.style.width = 'min(200px, 20vw)';
         item.style.objectFit = 'cover';
         item.style.border = '2px solid #222';
         item.style.boxShadow = '1px 1px 1px #222';
         container.addEventListener('mouseover', () => {
-            // container.style.setProperty('--itemDescription', descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);
             container.style.setProperty('--showInfo', 'visible');
-            // console.log(descriptions[counter-2], descriptions[String(container.id.charAt(String(container.id).length-1)-1)]);
-            // document.querySelector(':root').style.setProperty('--itemDescription', 'stick');
         });
         container.addEventListener('mouseleave', () => container.style.setProperty('--showInfo', 'hidden'))
         container.appendChild(item);

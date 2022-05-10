@@ -4,8 +4,17 @@ import { renderContactPage } from "./contact";
 import homeImage from './img/cottage_FILL1_wght400_GRAD0_opsz48.png';
 import menuImage from './img/restaurant_menu_FILL1_wght400_GRAD0_opsz48.png';
 import contactImage from './img/pin_drop_FILL1_wght400_GRAD0_opsz48.png';
+import favicon from './img/restaurant_menu_FILL1_wght400_GRAD0_opsz48.png';
 import "./style.css";
 
+// Sets favicon
+const faviconImg = new Image();
+faviconImg.src = favicon;
+const linkFavicon = document.createElement('link');
+linkFavicon.setAttribute('rel', 'shortcut icon');
+linkFavicon.setAttribute('type', 'image/ico');
+linkFavicon.setAttribute('href', favicon);
+document.head.appendChild(linkFavicon);
 
 
 const initialDisplay = (renderFunc=renderHomePage) => {
